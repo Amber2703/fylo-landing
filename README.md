@@ -5,7 +5,7 @@ A simple landing page for FYLO built with HTML5 and Sass.
 ## Technologies Used
 
 - HTML5
-- Sass
+- SCSS
 
 ## Getting Started
 
@@ -20,6 +20,6 @@ Open index.html in your preferred web browser.
 Explore and customize the code to fit your needs.
 
 
-Sass Compilation
+Scss Compilation
 
-If you make changes to the Sass files, you'll need to compile them into CSS. You can use a tool like node-sass or an extension in your code editor.
+If you make changes to the Scss files, you'll need to compile them into CSS. You can use a tool like an extension in your code editor.
