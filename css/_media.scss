@@ -1,0 +1,310 @@
+@media (max-width: 400px) {
+  %flexbox {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header {
+    padding: 24px;
+    &__inner {
+      height: 72px;
+    }
+    &__logo {
+      img {
+        width: 80px;
+        height: 24px;
+      }
+    }
+    &__menu {
+      width: 167px;
+      font-family: "Raleway", sans-serif;
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+  .start {
+    padding: 74px 27px 0 28px;
+    margin-bottom: 143px;
+    .container {
+      max-width: 320px;
+      margin: 0 auto;
+    }
+    &__inner {
+      flex-direction: column-reverse;
+      order: 1;
+    }
+
+    &__inner-content {
+      padding-top: 0px;
+      max-width: 320px;
+    }
+
+    &__inner-title {
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    &__inner-text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: 0;
+      text-align: center;
+      max-width: 296px;
+      height: 84px;
+      margin: 0 auto;
+      margin-bottom: 32px;
+    }
+
+    &__inner-form {
+      flex-direction: column;
+      order: 2;
+
+      input[type="email"] {
+        width: 304px;
+        height: 40px;
+        margin-right: 0px;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.4px;
+        margin-bottom: 16px;
+      }
+      input[type="submit"] {
+        width: 304px;
+        height: 40px;
+      }
+    }
+
+    &__inner-pic {
+      width: 304px;
+      height: 225px;
+      margin-bottom: 40px;
+    }
+  }
+  .howwork {
+    width: 375px;
+    padding-left: 28px;
+    min-height: 942px;
+    padding-top: 40px;
+    &::before {
+      content: "";
+      width: 375px;
+      height: 53px;
+      background-image: url(../images/bg-curve-mobile.svg);
+      top: -53px;
+      left: 0;
+    }
+
+    &__inner {
+      flex-direction: column-reverse;
+      order: 1;
+    }
+
+    &__inner-title {
+      font-family: "Raleway", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    &__inner-text {
+      width: 320px;
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: #615f7e;
+      margin-bottom: 16px;
+    }
+
+    &__inner-link {
+      font-size: 12px;
+      line-height: 16px;
+      margin-left: 103px;
+      padding-bottom: 6px;
+      margin-bottom: 40px;
+      padding-right: 22px;
+
+      &::after {
+        content: "";
+        width: 16px;
+        height: 16px;
+        background-image: url(../images/icon-arrow.svg);
+        right: 0;
+        top: 1px;
+      }
+    }
+
+    &__inner-card {
+      width: 280px;
+      height: 170px;
+      padding: 39px 13px 18px 25px;
+      margin-left: 20px;
+    }
+
+    &__inner-pic {
+      padding-top: 40px;
+      img {
+        width: 320px;
+        margin-bottom: 87px;
+      }
+    }
+  }
+  .card {
+    &__text {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 18px;
+      letter-spacing: 0.384615px;
+      color: #07043b;
+      margin-bottom: 12px;
+    }
+
+    &__profile {
+      width: 105px;
+      height: 27px;
+      &::before {
+        content: "";
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    &__profile-name {
+      font-size: 9px;
+      line-height: 12px;
+      letter-spacing: 0.45px;
+    }
+
+    &__profile-status {
+      font-size: 6px;
+      line-height: 12px;
+      letter-spacing: 0.3px;
+    }
+  }
+  .access {
+    padding-top: 54px;
+    width: 375px;
+    height: 345px;
+
+    &__inner {
+      display: block;
+      // align-items: center;
+    }
+
+    &__inner-content {
+      max-width: 280px;
+    }
+
+    &__inner-title {
+      width: 195px;
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 16px;
+      margin-left: 89px;
+    }
+
+    &__inner-text {
+      width: 280px;
+      margin-left: 48px;
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: 0px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    &__inner-form {
+      margin-left: 38px;
+      input[type="email"] {
+        width: 240px;
+        height: 32px;
+        box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+        border-radius: 1.47059px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+
+        padding: 11px 8px;
+        margin-bottom: 8px;
+        &::placeholder {
+          color: #c0c0c0;
+        }
+      }
+      input[type="submit"] {
+        box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+        border-radius: 1.47059px;
+        width: 240px;
+        height: 32px;
+        font-size: 10px;
+        line-height: 12px;
+      }
+    }
+  }
+  .footer {
+    width: 375px;
+    height: 590px;
+    padding: 65px 0 42px 39px;
+         
+    
+    li {
+      margin-bottom: 16px;
+      
+    }
+
+    &__logo {
+            margin-bottom: 32px;
+     }
+
+    &__inner {
+      display: block;
+    }
+
+    &__inner-contacts {
+      margin-right: 114px;
+      margin-bottom: 32px;
+    }
+
+    &__inner-menubase {
+      margin-bottom: 32px;
+    }
+
+    &__inner-menusecond {
+      margin-bottom: 16px;
+    }
+
+    &__inner-social {
+    
+      margin: 0 auto;
+      margin-left: 97px;
+      
+      
+
+      img {
+        width: 28px;
+        height: 27px;
+      }
+      
+    }
+    a + a {
+      margin-left: 10px;
+    }
+  }
+
+  
+
+
+}
